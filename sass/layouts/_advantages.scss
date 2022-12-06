@@ -3,11 +3,11 @@
     gap: 30px;
 }
 
-.advantages-list .item {
+.advantages-list__item {
     width: calc((100% - 90px)/4);
 }
 
-.advantages-icon {
+.advantages-list__icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@
     margin-bottom: 30px;
 }
 
-.advan {
+.advantages-list__subtitle {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -27,7 +27,7 @@
     color: var(--color-black);
 }
 
-.advan-text {
+.advantages-list__text {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
